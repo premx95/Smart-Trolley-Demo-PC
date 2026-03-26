@@ -69,7 +69,7 @@ A powerful and intuitive Python desktop application that transforms the shopping
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/smart-trolley.git
+git clone https://github.com/premx95/Smart-Trolley-Demo-PC.git
 cd smart-trolley
 ```
 
