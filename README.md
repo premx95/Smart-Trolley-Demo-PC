@@ -7,19 +7,31 @@ A powerful and intuitive Python desktop application that transforms the shopping
 ## 🌟 Why You'll Love It
 
 ✅ **Live Barcode Scanning** – Scan any product instantly using your webcam, no manual entry needed.
+
 ✅ **Smart Product Lookup** – Fetches product details directly from a local SQLite database in milliseconds.
+
 ✅ **Auto Billing System** – Automatically calculates totals and updates your cart in real time.
+
 ✅ **Duplicate Item Handling** – Detects already-scanned products and smartly accumulates quantities.
+
 ✅ **Multiple Payment Methods** – Supports Easypaisa, JazzCash, and Debit Card payments.
+
 ✅ **Clean & Responsive UI** – A modern Tkinter-based interface that's easy to use for anyone.
+
 ✅ **Detailed Cart Breakdown:**
+
 - 🏷️ **Product Name** – Clearly labeled items in your cart.
+- 
 - 💰 **Unit Price** – Per-item cost fetched straight from the database.
+- 
 - 🔢 **Quantity** – Fully adjustable per scan.
+- 
 - 🧾 **Line Total** – Auto-calculated for each product.
+- 
 - 💵 **Grand Total** – Always up to date as you scan.
 
 ✅ **Threaded Scanning** – Camera runs on a background thread so the UI never freezes.
+
 ✅ **Smart Error Handling** – Gracefully handles unknown barcodes, camera errors, and invalid inputs.
 
 ---
