@@ -21,15 +21,11 @@ A powerful and intuitive Python desktop application that transforms the shopping
 ✅ **Detailed Cart Breakdown:**
 
 - 🏷️ **Product Name** – Clearly labeled items in your cart.
-- 
 - 💰 **Unit Price** – Per-item cost fetched straight from the database.
-- 
 - 🔢 **Quantity** – Fully adjustable per scan.
-- 
 - 🧾 **Line Total** – Auto-calculated for each product.
-- 
 - 💵 **Grand Total** – Always up to date as you scan.
-
+  
 ✅ **Threaded Scanning** – Camera runs on a background thread so the UI never freezes.
 
 ✅ **Smart Error Handling** – Gracefully handles unknown barcodes, camera errors, and invalid inputs.
@@ -83,7 +79,7 @@ cd smart-trolley
 pip install opencv-python pyzbar
 ```
 
-> ⚠️ **Windows Users:** `pyzbar` requires the ZBar DLL. Download it from [zbar.sourceforge.net](http://zbar.sourceforge.net) and add it to your system PATH.
+> ⚠️ **Windows Users:** First try without this ( `pyzbar` requires the ZBar DLL. Download it from [zbar.sourceforge.net](http://zbar.sourceforge.net) ) without its downloading if not then download it and add it to your system PATH.
 
 > ⚠️ **Linux Users:** Install the ZBar system library first:
 > ```bash
@@ -151,11 +147,17 @@ python smart_trolley.py
 ## 🔮 Future Enhancements
 
 ✨ **Real Payment Gateway** – Integrate actual Easypaisa/JazzCash APIs for live transactions.
+
 ✨ **Admin Panel** – Add, edit, and remove products directly from the GUI.
+
 ✨ **Receipt Printing** – Generate and print PDF receipts after checkout.
+
 ✨ **QR Code Support** – Extend scanning to QR-coded products.
+
 ✨ **Dark Mode UI** – Optional dark theme for low-light environments.
+
 ✨ **Sales Reports** – Track daily/weekly sales from the database.
+
 ✨ **Cross-Platform Camera Fix** – Remove Windows-only `CAP_DSHOW` for macOS/Linux compatibility.
 
 ---
